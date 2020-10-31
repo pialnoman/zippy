@@ -1,0 +1,369 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-weight: 700;
+    color: black;
+}
+/*********************************************** navbar start ***********************************************/
+.navbar-default{
+    background-color: rgba(18, 31, 44,0.9);
+}
+.navbar-brand{
+    font-weight: 900;
+    padding: 7px 0px;
+}
+.navbar-brand h1 {
+    margin: 0px 15px;
+    color: white;
+}
+.navbar-default .navbar-nav li a {
+    color: white; 
+}
+.navbar-default .navbar-nav li a:hover{
+    color: #ffe26d;
+}
+/*********************************************** navbar end ***********************************************/
+
+/*********************************************** banner start ***********************************************/
+.background{
+    padding-top: 155px; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 260px;
+}
+.background h2{
+    font-family: 'Myriad Pro';
+    font-size: 40.69px;
+    font-weight: 300;
+    color: white;
+}
+.para{
+    font-family: 'Myriad Pro';
+    font-size: 19.16px;
+    padding-top: 30px;
+    font-weight: 100;
+    color: white;
+}
+.btn-primary{
+    background-color: #ffe26d;
+    border: none;
+    color: inherit;
+    margin-top: 30px;
+    padding: 15px;
+}
+.btn-primary:hover{
+    background-color: #62497c;
+    border: none;
+    color: white;
+}
+/*********************************************** navbar end ***********************************************/
+
+/*********************************************** intro start ***********************************************/
+.centerButton{
+    text-align: center;
+}
+.intro h2{
+    text-align: center;
+    margin: 70px 0px;
+}
+.intro p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 29.47px;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #62497c;
+    margin: 70px auto;
+    padding: 20px;
+}
+.circle i{
+    font-size: 40px;
+    color: white;
+}
+.col-md-4 h4{
+    text-align: center;
+    color: #62497c;
+}
+.col-md-4 p{
+    font-family: helvetica;
+    font-size: 13.26px;
+    text-align: center;
+}
+.col-md-4 button {
+    margin: 20px auto;
+}
+/*********************************************** intro end ***********************************************/
+
+/*********************************************** project start ***********************************************/
+.project{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.project h2 {
+    font-size: 44.21px;
+    text-align: center;
+    color: black;
+    padding-bottom: 50px;
+}
+.proimage{
+    width: 25%;
+    float: left;
+}
+.project button{
+    background-color: white;
+}
+.proimage{
+    background-color: #efefef;
+}
+.proimage:hover{
+    background-color: #ffe26d;
+}
+.proimage:hover .btn{
+    background-color: #62497c;
+    color: white;
+}
+.proimage img {
+    width: 100%;
+    height: 485px;
+}
+.proPara{
+    padding: 45px;
+}
+.proPara h4{
+    color: black;
+}
+.proPara p{
+    font-family: helvetica;
+    color: inherit;
+}
+/*********************************************** project end ***********************************************/
+
+/*********************************************** pricing start ***********************************************/
+.pricing h2{
+    clear: both;
+    margin: 60px 0px;
+    font-size: 44.21px;
+    text-align: center;
+    color: black;
+}
+.leftRightMargin{
+    border-left: 5px solid #e7e7e7;
+    border-right: 5px solid #e7e7e7;
+}
+.pricePlan h4{
+    font-size: 14.74px;
+    color: #040405;
+}
+.deamPara{
+    font-family: helvetica;
+    color: gray;
+}
+.pricePlan .col-md-4{
+    padding: 15px;
+}
+/*********************************************** pricing end ***********************************************/
+
+/*********************************************** team start ***********************************************/
+.team h2{
+    font-size: 44.21px;
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+}
+.member{
+    margin: 50px auto;
+}
+.memberImage{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background: #62497c;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.memberImage img{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+}
+.memberLink a i{
+    color: white;
+}
+.memberImage .memberLink {
+    position: absolute;
+    opacity: 0;
+    font-size: 30px;
+    padding-left: 33px;
+    padding-top: 65px;
+    color: white;
+}
+.memberImage:hover .memberLink{
+    opacity: 1;
+}
+.memberImage:hover img {
+    opacity: 0.3;
+    background-color: #62497c;
+}
+.member h4{
+    margin-top: 30px;
+    font-size: 14.74px;
+    color: #040405;
+}
+/*********************************************** team end ***********************************************/
+
+/*********************************************** newsletter start ***********************************************/
+.newsletter{
+    background-image: url(../image/newsletter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0px 50px 0px;
+}
+.newsletter h2{
+    text-align: center;
+}
+.newsletter .input-group{
+    width: 545px;
+    margin: 35px auto;
+}
+.btn-secondary{
+    background: #ffe26d;
+}
+.btn-secondary:hover {
+    background: #62497c;
+    color: white;
+}
+.input-group .form-control{
+    border: none;
+}
+/*********************************************** newsletter end ***********************************************/
+
+/*********************************************** blog start ***********************************************/
+.blog h2{
+    font-size: 44.21px;
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+}
+.bloger{
+    padding-top: 55px;
+}
+.bloger h4{
+    padding-top: 30px;
+    font-size: 14.74px;
+    color: #040405;
+}
+.blog img{
+    width: 202px;
+    height: 112px;
+}
+.blog p{
+    padding-top: 25px;
+    font-family: helvetica;
+    color: gray;
+}
+/*********************************************** blog end ***********************************************/
+
+/*********************************************** map start ***********************************************/
+.map {
+    width: 100%;
+    margin-top: 85px;
+    overflow: hidden;
+}
+.map iframe{
+    width: 50%;
+    height: 650px;
+    float: left;
+}
+.map h2{
+    font-size: 44.21px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.contactForm{
+    width: 50%;
+    height: 650px;
+    float: left;
+    background-color: #efefef;
+    padding-left: 25px;
+}
+.contactForm button{
+    width: 100%;
+    background-color: #62497c;
+    color: white;
+}
+.contactForm {
+    background-color: #ffe26d;
+}
+.contactForm input, .contactForm button{
+    width: 310px;
+    border: none;
+}
+.contactForm textarea{
+    max-width: 310px;
+    max-height: 160px;
+    border: none;
+}
+/*********************************************** map end ***********************************************/
+
+/*********************************************** footer start ***********************************************/
+footer{
+    padding: 80px 0px;
+    text-align: center;
+}
+footer .col-md-4{
+    padding: 40px;
+}
+footer a i{
+    color: black;
+    padding: 0px 20px;
+    font-size: 18.33px;
+}
+footer a i:hover {
+    color: #62497c;
+}
+/*********************************************** footer end ***********************************************/
+
+/*********************************************** media start ***********************************************/
+
+@media screen and (max-width: 360px){
+    .background{
+        padding-top: 60px; 
+        padding-bottom: 50px;
+    }
+    .proimage{
+        width: 100%;
+    }
+    .newsletter{
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .newsletter .input-group{
+        width: 80%;
+    }
+    .map img{
+        width: 100%;
+    }
+    .contactForm{
+        width: 100%;
+    }
+    .form-group input, .form-group textarea, .contactForm button{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px){
+    .newsletter{
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .proPara .btn{
+        width: 80%;
+    }
+}
+
+/*********************************************** media end ***********************************************/
